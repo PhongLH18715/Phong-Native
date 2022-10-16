@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/tripsFragment">
+
+    <fragment
+        android:id="@+id/tripsFragment"
+        android:name="com.example.mexpenseapplication.views.TripsFragment"
+        android:label="fragment_trips"
+        tools:layout="@layout/fragment_trips" />
+    <fragment
+        android:id="@+id/expensesFragment"
+        android:name="com.example.mexpenseapplication.views.ExpensesFragment"
+        android:label="fragment_expenses"
+        tools:layout="@layout/fragment_expenses" />
+    <fragment
+        android:id="@+id/tripFormFragment"
+        android:name="com.example.mexpenseapplication.views.TripFormFragment"
+        android:label="fragment_trip_form"
+        tools:layout="@layout/fragment_trip_form" />
+    <fragment
+        android:id="@+id/expenseFormFragment"
+        android:name="com.example.mexpenseapplication.views.ExpenseFormFragment"
+        android:label="fragment_expense_form"
+        tools:layout="@layout/fragment_expense_form" />
+</navigation>
